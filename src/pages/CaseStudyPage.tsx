@@ -28,7 +28,7 @@ const caseStudies: Record<string, CaseStudy> = {
     subtitle: 'Student Experience Redesign',
     description: 'A modern redesign of the university mobile app focusing on enhanced aesthetics and user experience.',
     image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    challenge: 'The existing university mobile app was outdated, with poor user engagement and frequent complaints about navigation and visual appeal. Students found it difficult to access important information quickly.',
+    challenge: 'The existing university mobile app was outdated, n and visual appeal. Students found it difficult to access important information quickly.',
     solution: 'Through a year-long design thinking process, we completely reimagined the app with modern aesthetics and intuitive navigation, focusing on the most frequently used features.',
     impact: 'The redesign achieved 85% student satisfaction, 40% increase in daily active users, and received recognition from university leadership for its innovative approach.',
     tags: ['Mobile App', 'UI/UX Design', 'Education'],
@@ -136,7 +136,7 @@ const CaseStudyPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Main Image */}
+      {/* Main Image 
       <section className="py-12">
         <div className="container-custom">
           <AnimatedSection>
@@ -149,7 +149,7 @@ const CaseStudyPage: React.FC = () => {
             </div>
           </AnimatedSection>
         </div>
-      </section>
+      </section>*/}
 
       {/* Overview */}
       <section className="py-20 bg-white">
